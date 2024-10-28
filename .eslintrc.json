@@ -1,3 +1,32 @@
-{
-  "extends": "next/core-web-vitals"
-}
+// .eslintrc.js
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+  },
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended', // Make sure to include React recommended rules
+    // Add other extends if necessary
+  ],
+  parser: '@babel/eslint-parser', // If you're using Babel
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true, // Enable JSX
+    },
+    ecmaVersion: 12, // or whatever version you are using
+    sourceType: 'module',
+  },
+  plugins: ['react'], // Make sure to include the React plugin
+  rules: {
+    'react/no-unescaped-entities': 'off', // Disable the specific rule
+    // Add other rules as needed
+  },
+  settings: {
+    react: {
+      version: 'detect', // Automatically detect the React version
+    },
+  },
+};
+
+
