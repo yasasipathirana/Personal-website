@@ -1,6 +1,7 @@
 // app/layout.js
 
 import './globals.css';
+import Link from 'next/link';
 
 export const metadata = {
   title: 'My Personal Website',
@@ -13,7 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <header style={{ textAlign: 'center', padding: '1rem' }}>
           <nav>
-            <a href="/">Home</a> | <a href="/about">About</a> | <a href="/contact">Contact</a>
+            <Link href="/">Home</Link> | <Link href="/about">About</Link> | <Link href="/contact">Contact</Link>
           </nav>
         </header>
         <main>{children}</main>

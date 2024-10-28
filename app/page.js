@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <section className={styles.container}>
       <h1 className={styles.title}><b>Welcome to My Personal Website 😊</b></h1>
-      <p>Hi! I'm Yasasi Pathirana, a passionate IT student exploring the digital world.</p>
+      <p>Hi! I&apos;m Yasasi Pathirana, a passionate IT student exploring the digital world.</p>
       <Link href="/about" className={styles.portfolioLink}>Learn more about me</Link>
 
       <h2 className={styles.title}>Portfolio</h2>

@@ -5,8 +5,8 @@ export default function AboutPage() {
     <section className={styles.container}>
       <h1 className={styles.title}><b>About Me</b></h1>
       <p>
-        <b>Hello!💁‍♀️</b> I'm Yasasi Pathirana, an undergraduate studying information technology.
-        I can't wait to explore the digital world. My IT degree will provide me the tools to make an impact.
+        <b>Hello!💁‍♀️</b> I&apos;m Yasasi Pathirana, an undergraduate studying information technology.
+        I can&apos;t wait to explore the digital world. My IT degree will provide me the tools to make an impact.
       </p>
       <h2 className={styles.title}><b>Specializations</b></h2>
       <p>Business Analysis and UI/UX Design:</p>
