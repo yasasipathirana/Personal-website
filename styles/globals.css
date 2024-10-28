@@ -1,0 +1,64 @@
+/* styles/globals.css */
+
+:root {
+  --background-color: #f3e8ff; /* Light lavender background */
+  --primary-color: #4b0082; /* Indigo/purple for headings and accents */
+  --secondary-color: #6a0dad; /* Deep purple for links and highlights */
+  --text-color: #333333; /* Dark gray for main text */
+  --accent-color: #b19cd9; /* Softer lavender for sections */
+}
+
+.body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-image: url('/image1.jpg'); /* Use the image in the public folder */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+}
+
+.h1, .h2, .h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.a:hover {
+  color: var(--primary-color);
+}
+
+.ul {
+  list-style-type: square;
+  color: var(--primary-color);
+  padding-left: 20px;
+}
+
+.section {
+  background-color: var(--accent-color);
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.p {
+  margin-bottom: 1rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
